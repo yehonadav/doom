@@ -1,0 +1,239 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "N_BRGN02";
+		overrideceilheight = false;
+		
+		resources
+		{
+		}
+		defaulttoptexture = "N_GLTY03";
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				yscaleceiling = 1;
+				rotationfloor = 17;
+				ypanningceiling = 1;
+				xpanningceiling = 1;
+				yscalefloor = 1;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_mid = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+			}
+		}
+		viewpositionx = 453.4071f;
+		viewpositiony = -767.92f;
+		viewscale = 0.558035f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 16f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "N_TWGN04";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "N_GLTY03";
+		defaultbottomtexture = "N_GLTY03";
+	}
+	
+	STR01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "N_BRGN02";
+		overrideceilheight = false;
+		
+		resources
+		{
+		}
+		defaulttoptexture = "N_GLTY03";
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				ypanningfloor = 1;
+				yscaleceiling = 1;
+				rotationfloor = 17;
+				ypanningceiling = 1;
+				xpanningceiling = 1;
+				yscalefloor = 1;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_mid = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+			}
+		}
+		viewpositionx = -232.1268f;
+		viewpositiony = -548.0737f;
+		viewscale = 0.9315202f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 8f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "SLBRNZ02";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "N_GLTY03";
+		defaultbottomtexture = "N_GLTY03";
+	}
+	
+	JND01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "N_BRGN02";
+		overrideceilheight = false;
+		
+		resources
+		{
+		}
+		defaulttoptexture = "N_GLTY03";
+		overridemiddletexture = false;
+		viewpositionx = 1432.594f;
+		viewpositiony = -1092.693f;
+		viewscale = 0.1275383f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 32f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "SLBRNZ02";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "N_GLTY03";
+		defaultbottomtexture = "N_GLTY03";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_top = 1;
+				offsetx_bottom = 1;
+				offsety_top = 1;
+				offsetx_mid = 1;
+				offsety_bottom = 1;
+				offsety_mid = 1;
+			}
+			
+			sector
+			{
+				rotationfloor = 1;
+				xpanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				ypanningfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 582;
+				firstvisibleline = 12;
+				activetab = true;
+			}
+		}
+	}
+}
